@@ -1,0 +1,69 @@
+.Box1{
+    margin-left: 250px;
+    display: flex;
+    margin-right: 20px;
+    margin-top: 0 !important;
+    height: 90%;
+}
+.refundLg{
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0,0,0,0.75);
+    padding: 20px;
+    margin-top: 30px;
+    color: #019593;
+    height: 90%;
+}
+.refundLgTitle{
+    font-size: 25px;
+    font-style: italic;
+}
+.fundsearch{
+    margin: 10px 30px;
+    width: 300px;
+    align-self: center;
+    font-size: medium;
+    padding: 5px;
+
+}
+.refundLgTable{
+    width: 100%;
+    height: 70%;
+    border-spacing: 20px;
+}
+.refundLgTr{
+    border-bottom: 2px solid grey;
+    margin-bottom: 5px !important;
+}
+.refundLgTh{
+    font-size: 20px;
+    color: rgb(221, 0, 0);
+}
+.refundLgUser{
+    display: flex;
+    align-items: flex-end;
+    height: 40px;
+    font-weight: 600;
+}
+.refundLgImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+}
+.refundLgDate,.refundLgAmount{
+    font-weight: 500;
+    font-size: medium;
+}
+.refundLgProduct{
+    font-weight: 500;
+}
+
+.form{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
